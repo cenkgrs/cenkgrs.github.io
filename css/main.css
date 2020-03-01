@@ -1,0 +1,19 @@
+body{
+    background: #0b0c0b !important;
+}
+.page{
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.profile{
+    height: 100%;
+    padding: 10px !important;
+    margin: auto;
+    color: #a4b0be;
+    background: #353535 !important;
+}
+.name-header{
+    padding: 8px;
+    font-weight: bold;
+}
