@@ -6,9 +6,11 @@ body{
     margin-left: 25px;
     margin-right: 25px;
 }
+
+/* Profile Section */
 .profile{
     height: 100%;
-    padding: 10px !important;
+    padding: 20px !important;
     margin: auto;
     color: #a4b0be;
     background: #353535 !important;
@@ -17,3 +19,16 @@ body{
     padding: 8px;
     font-weight: bold;
 }
+
+.social-icon{
+    padding: 10px;
+    font-size: 1.23333333em !important;
+    color: none;
+}
+.social-icon:hover{
+    background: #0080FF;
+    border-radius: 15px;
+}
+
+.about-header{ margin: 10px 0px ;}
+.about-p{font-weight: 600;}
