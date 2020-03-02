@@ -1,9 +1,14 @@
 .pt15{padding-top: 15px !important;}
 .p15{padding: 15px !important;}
 
+.mt0{margin-top: 0px !important;}
+.ml0{margin-left: 0px !important;}
+.mr0{margin-right: 0px !important;}
+
 .mt25{margin-top: 25px !important;}
 
 .ml10{margin-left: 10px !important;}
+.mb30{margin-bottom: 30px !important;}
 
 .text-left{text-align: left;}
 .bold{font-weight: bold;}
