@@ -76,7 +76,7 @@ div .active{
 .about-area{
     background: #222222 !important;
     width: 100%;
-    height: 53%;
+    height: 34%;
     color: #ffffff;
     padding: 30px 50px;
     font-family: 'Raleway', sans-serif !important;
@@ -139,11 +139,14 @@ div .active{
 
 .skills-area{
     width: 100%;
-    height: 45%;
+    height: 29%;
     background: #222222 !important;
     margin-top: 25px;
     color: #ffffff;
     padding: 30px 50px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
 }
 .skills-area i{
     font-size: 40px;
@@ -188,4 +191,53 @@ div .active{
 .progress #html-bar{ width: 75%; background: #b63f08;}
 .progress #css-bar{ width: 65%; background: #2a6592;}
 .progress #sql-bar{ width: 55%; background:  	#8ec3eb;}
+
+/* EDUCATION AREA */
+
+.education-area{
+    width: 100%;
+    height: 32%;
+    background: #222222 !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    padding: 30px 50px;
+}
+
+.education-area i{
+    font-size: 40px;
+    color: #0080FF;
+    margin-right: 10px;
+}
+
+.education-area .school{
+    margin-top: 40px;
+    height: 20%;
+    background: #2c2c2c;
+    border-bottom: 1px solid #424242;
+}
+.row .box{
+    border-right: 1px solid #424242;
+}
+.row .rectangle{
+    text-align: left;
+    font-size: 22px;
+    margin: auto;
+}
+
+.rectangle small{
+    color: #bbbbbb;
+    margin-right: 20px;
+}
+.rectangle b{
+    font-size: 19px;
+}
+.box .bubble{
+    background: #2196f3;
+    border-radius: 10px;
+    width: 28%;
+    height: 35%;
+    margin: auto;
+    margin-top: 20px;
+}
 
