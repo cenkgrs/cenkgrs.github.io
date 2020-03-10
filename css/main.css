@@ -9,6 +9,11 @@ body{
 }
 
 /* Profile Section */
+.fixed-profile{
+    position: fixed !important; 
+    top: 0%;
+    z-index: 1;
+}
 .profile{
     height: 100%;
     padding: 20px !important;
@@ -39,14 +44,26 @@ body{
 
 
 /* Navigation Area */
+.fixed-navigation{
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    height: 7% !important;
+    left: 0% !important;
+
+    right: 0%;
+}
 .navigation-area{
     /*background: #353535 !important;*/
     background: #222222 !important;
     padding: 0px 30px;
     width: 100%;
-    height: 15%;
+    height: 5%;
     color: #ffffff;
     margin-bottom: 25px;
+    transition: left 1s linear;
+
+    left: 18%;
 }
 .nav-block{
     background: none;
@@ -76,7 +93,7 @@ div .active{
 .about-area{
     background: #222222 !important;
     width: 100%;
-    height: 34%;
+    height: 33%;
     color: #ffffff;
     padding: 30px 50px;
     font-family: 'Raleway', sans-serif !important;
@@ -157,7 +174,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
     padding: 5px;
 }
 .progress-area{
-    background: #353535;
+    background: #2c2c2c;
     padding: 25px 20px;
     border-radius: 10px;
 }
@@ -239,5 +256,22 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
     height: 35%;
     margin: auto;
     margin-top: 20px;
+}
+
+/* EXPERIENCE AREA */
+
+.experience-area{
+    width: 100%;
+    height: 32%;
+    background: #222222 !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    padding: 30px 50px;
+}
+.experience-area i{
+    font-size: 40px;
+    color: #0080FF;
+    margin-right: 10px;
 }
 
