@@ -6,7 +6,7 @@ $(document).ready(function(){
     
         var area = $(this).data("type");
         $('html, body').animate({
-            scrollTop: $("div."+area).offset().top
+            scrollTop: $("div."+area).offset().top-200
           }, 2000)
     });
     
