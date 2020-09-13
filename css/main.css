@@ -40,7 +40,7 @@ body{
 }
 
 .about-header{ margin: 10px 0px ;}
-.about-p{font-weight: 500;}
+.about-p{font-weight: 500; font-size: 1.4vh;}
 
 
 /* Navigation Area */
@@ -260,12 +260,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
 
 .experience-area{
     width: 100%;
-    height: 32%;
     background: #222222 !important;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     color: #ffffff;
-    padding: 30px 50px;
+    padding: 3vh 5vh;
 }
 .experience-area i{
     font-size: 40px;
@@ -283,6 +282,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
     text-align: center;
     font-weight: bold;
     margin-top: 2.5vh;
+}
+
+.experience-area .job-description{
+    background: #2c2c2c;
+    border-bottom: 1px solid #424242;
+    padding: 3vh;
+    box-sizing: content-box;
 }
 
 

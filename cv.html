@@ -10,6 +10,10 @@
         src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script src="./js/main.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -28,7 +32,7 @@
                 <a class="" href="https://www.linkedin.com/in/cenk-g%C3%BCrses-21a40b193/"> <i class="fa fa-linkedin social-icon"></i></a>
 
                 <h4 class="text-left about-header">Who am i ? </h4>
-                <small class="about-p">I am a computer engineering student from Istanbul University. Software Developer at Digital Trade A.Ş</small>
+                <p class="about-p">I am a computer engineering student from Istanbul University. Software Developer at Digital Trade A.Ş</p>
             </div>
 
             <div class="col-lg-10">
@@ -188,41 +192,60 @@
                         </div>
                         <div class="col-lg-9 rectangle">
                             <div class="row">
-                                <div class="col-lg-9">
-                                    <p><strong> Digital Trade - Software Engineer</strong></p>
+                                <div class="col-lg-9 m-auto">
+                                    <p class="m-bottom-0"><strong> Digital Trade - Software Engineer</strong></p>
                                 </div>
                                 <div class="col-lg-3">
                                     <i class="fa fa-sort-down"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="collapse" id="job1">
-                            <div class="card card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            </div>
-                        </div>
+                       
                     </div>
+                    <div class="row job-description collapse" id="job1">
+                        <p> After i graduate from Istanbul University, i started working in this company as full-time Software Engineer. Up until this time 
+                        i developed my skills both at languages and technologies we use and the fundamentals in our job like clean code, maintainable code etc.</p>
+                    </div>
+                  
 
-                    <div class="row job">
+                    <div class="row job" data-toggle="collapse" data-target="#job2" aria-expanded="true" aria-controls="collapseOne">
                         <div class="col-lg-2 box">
                             <div class="date-box">
                                 <strong>2019-July - 2020-July</strong>
                             </div>
                         </div>
                         <div class="col-lg-9 rectangle">
-                            <p><strong> Digital Trade - Software Developer</strong></p>
+                            <div class="row">
+                                <div class="col-lg-9 m-auto">
+                                    <p class="mb0"><strong> Digital Trade - Software Developer</strong></p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <i class="fa fa-sort-down"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row job">
+                    <div class="row job-description collapse" id="job2">
+                        <p>At this time i started working in this company as part-time Software Developer after i finished my internship here.</p> 
+                    </div>
+                    <div class="row job" data-toggle="collapse" data-target="#job3" aria-expanded="true" aria-controls="collapseOne">
                         <div class="col-lg-2 box">
                             <div class="date-box">
                                 <strong>2019-June - 2019-July</strong>
                             </div>
                         </div>
                         <div class="col-lg-9 rectangle">
-                            <p><strong> Digital Trade - Software Developer -Intern</strong></p>
+                            <div class="row">
+                                <div class="col-lg-9 m-auto">
+                                    <p class="mb0"><strong> Digital Trade - Software Developer - Intern</strong></p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <i class="fa fa-sort-down"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="row job-description collapse" id="#job3"></div>
                 </div>
             </div>
         </div>
