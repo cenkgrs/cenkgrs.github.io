@@ -2,4 +2,4 @@
 
 The website i developed to showcase my portfolio. 
 
--> cenkgurses.website
+-> http://cenkgurses.website/
