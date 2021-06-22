@@ -1,0 +1,26 @@
+{
+  "name": "cenkgrs.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "sass --watch scss:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cenkgrs/cenkgrs.github.io.git"
+  },
+  "keywords": [
+    "Personal",
+    "Website"
+  ],
+  "author": "Cenk Gürses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cenkgrs/cenkgrs.github.io/issues"
+  },
+  "homepage": "https://github.com/cenkgrs/cenkgrs.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  }
+}
