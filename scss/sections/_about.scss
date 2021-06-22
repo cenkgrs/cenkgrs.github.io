@@ -1,0 +1,63 @@
+/* ABOUT AREA */
+
+.about-header{ margin: 10px 0px ;}
+.about-p{font-weight: 500; font-size: 1.4vh;}
+
+.about-area{
+    background: #222222 !important;
+    width: 100%;
+    height: 33%;
+    color: #ffffff;
+    padding: 30px 50px;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.about-area .fa{
+    font-size: 40px;
+}
+.about-area h2{
+    padding: 5px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.about-area p{
+    margin-top: 20px;
+    color: #bbbbbb;
+}
+
+.per-project{
+    background: #353535;
+    transition: 2s;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.per-project i{ margin-bottom: 10px; color: #0080FF; }
+.per-project h4{ font-size: 22px; }
+
+.per-project:hover{
+    background: #0080FF;
+    color: #ffffff !important;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.per-project:hover > i{
+    color: #353535;
+}
+.per-project:last-child{
+    margin-left: 10px;
+}
+
+.per-details{
+    padding: 15px;
+    margin-left: 50px;
+    background: #353535;
+
+}
+.per-details .col-lg-4:first-child{
+    border-right: 3px solid #0b0c0b;
+}
+.per-details p{
+    margin: auto;
+}

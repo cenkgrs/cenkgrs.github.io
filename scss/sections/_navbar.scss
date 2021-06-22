@@ -1,14 +1,14 @@
 $navbar-background: #222222 !important;
+$hover-background: #0080FF !important;
 $color-white: #ffffff;
 
-/* Navigation Area */
+/* Navigation Section */
 .fixed-navigation{
     position: fixed;
     top: 0%;
     z-index: 1;
     height: 7% !important;
     left: 0% !important;
-
     right: 0%;
 }
 .navigation-area{
@@ -38,11 +38,11 @@ $color-white: #ffffff;
     margin-left: 30px;
 }
 .nav-block:hover{
-    background: #0080FF;
+    background: $hover-background;
 }
 .nav-block:visited{
     border: none;
 }
 div .active{
-    background: #0080FF;
+    background: $hover-background;
 }

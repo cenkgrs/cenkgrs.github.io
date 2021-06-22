@@ -1,2 +1,16 @@
 
-@use 'sections/navbar';
+// Navbar Section
+
+@use 'sections/_navbar';
+
+// Profile Section
+
+@use 'sections/_profile';
+
+// About Section
+
+@use 'sections/_about';
+
+// Skills Section
+
+@use 'sections/_skills';
