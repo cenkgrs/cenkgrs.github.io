@@ -1,5 +1,5 @@
 # Personal-Website
 
-The website i developed to showcase my portfolio. 
+The website i'm developing to showcase my portfolio. 
 
--> http://cenkgurses.website/
+-> https://cenkgrs.github.io/
