@@ -47,9 +47,7 @@ $(document).ready(function(){
     });
 
     $(document).delegate(".open-porfolio", "click", function() {
-        setTimeout( function() {
-            document.location.href = 'portfolio.html';
-        }, 50);
+        document.location.href = 'portfolio.html';
     })
     
 });

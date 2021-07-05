@@ -314,7 +314,8 @@ div .active {
     border-radius: 13px !important;
     padding: 3px;
     width: 40% !important;
-    height: 1% !important;
+    position: absolute;
+    right: 0;
   }
 
   .progress .progress-bar {
