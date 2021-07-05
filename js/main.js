@@ -2,6 +2,7 @@
 $(document).ready(function(){
     $(".progress .progress-bar").removeClass("w0");
 
+    // Go to selected area
     $(document).delegate(".nav-block", "click", function(){
     
         var area = $(this).data("type");
@@ -10,6 +11,7 @@ $(document).ready(function(){
           }, 2000)
     });
     
+    // Check scroll height
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
     
@@ -29,6 +31,7 @@ $(document).ready(function(){
     
     });
 
+    // Go to top of page
     $(document).delegate(".up-arrow", "click", function(){
         $('html,body').animate({
             scrollTop: $("div.page").offset().top
