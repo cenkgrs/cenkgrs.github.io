@@ -42,7 +42,6 @@ $(document).ready(function(){
     $(document).delegate(".job", "click", function()
     {
         target = $(this).data('target');
-        console.log(target);
         $(target).fadeToggle();
     });
 
