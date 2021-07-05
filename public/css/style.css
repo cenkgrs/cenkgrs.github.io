@@ -168,7 +168,7 @@ div .active {
     color: #ffffff;
     padding: 3vh 3vh;
     margin-top: 2.5vh;
-    font-family: "Raleway", sans-serif !important;
+    /*font-family: 'Raleway', sans-serif !important*/
   }
 
   .about-area p {
@@ -365,50 +365,96 @@ div .active {
   }
 }
 /* EDUCATION AREA */
-.education-area {
-  width: 100%;
-  height: fit-content;
-  background: #222222 !important;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  color: #ffffff;
-  padding: 30px 50px;
-}
+@media only screen and (min-width: 600px) {
+  .education-area {
+    width: 100%;
+    height: fit-content;
+    background: #222222 !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    padding: 30px 50px;
+  }
 
-.education-area .school {
-  margin-top: 4vh;
-}
+  .education-area .school {
+    margin-top: 4vh;
+  }
 
-.row .box {
-  border-right: 1px solid #424242;
-}
+  .row .box {
+    border-right: 1px solid #424242;
+  }
 
-.row .rectangle {
-  text-align: left;
-  margin: auto;
-}
+  .row .rectangle {
+    text-align: left;
+    margin: auto;
+  }
 
-.rectangle small {
-  color: #bbbbbb;
-  margin-right: 20px;
-}
+  .rectangle small {
+    color: #bbbbbb;
+    margin-right: 20px;
+  }
 
-.rectangle b {
-  font-size: 19px;
-}
+  .rectangle b {
+    font-size: 19px;
+  }
 
-.rectangle i {
-  float: right;
-}
+  .rectangle i {
+    float: right;
+  }
 
-.box .bubble {
-  background: #0080ffb5;
-  border-radius: 5vh;
-  width: 3vh;
-  height: 3vh;
-  margin: auto;
+  .box .bubble {
+    background: #0080ffb5;
+    border-radius: 5vh;
+    width: 3vh;
+    height: 3vh;
+    margin: auto;
+  }
 }
+@media only screen and (max-width: 600px) {
+  .education-area {
+    width: 100%;
+    height: fit-content;
+    background: #222222 !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    padding: 3vh;
+  }
 
+  .education-area .school {
+    margin-top: 4vh;
+  }
+
+  .row .box {
+    border-right: 1px solid #424242;
+  }
+
+  .row .rectangle {
+    text-align: left;
+    margin: auto;
+  }
+
+  .rectangle small {
+    color: #f1f1f1;
+    margin-right: 20px;
+  }
+
+  .rectangle b {
+    font-size: 19px;
+  }
+
+  .rectangle i {
+    float: right;
+  }
+
+  .box .bubble {
+    background: #0080ffb5;
+    border-radius: 5vh;
+    width: 3vh;
+    height: 3vh;
+    margin: auto;
+  }
+}
 /* EXPERIENCE AREA */
 .experience-area {
   width: 100%;
@@ -584,6 +630,78 @@ div .active {
     display: none;
   }
 
+  .display-none {
+    display: none;
+  }
+
+  .p0 {
+    padding: 0 !important;
+  }
+
+  .pt15 {
+    padding-top: 15px !important;
+  }
+
+  .p15 {
+    padding: 15px !important;
+  }
+
+  .m-auto {
+    margin: auto !important;
+  }
+
+  .mt0 {
+    margin-top: 0px !important;
+  }
+
+  .ml0 {
+    margin-left: 0px !important;
+  }
+
+  .mr0 {
+    margin-right: 0px !important;
+  }
+
+  .mb0 {
+    margin-bottom: 0px !important;
+  }
+
+  .mt4 {
+    margin-top: 4vh !important;
+  }
+
+  .mt25 {
+    margin-top: 25px !important;
+  }
+
+  .mb4 {
+    margin-bottom: 4vh !important;
+  }
+
+  .ml10 {
+    margin-left: 10px !important;
+  }
+
+  .mb30 {
+    margin-bottom: 30px !important;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .color-none {
+    color: #a4b0be;
+  }
+
+  .w0 {
+    width: 0% !important;
+  }
+
   /* Area */
   .area-header {
     font-size: 1.3rem;
@@ -596,6 +714,14 @@ div .active {
   .area-logo {
     font-size: 1.2rem !important;
     margin-top: 0.4vh;
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  span {
+    font-size: 0.9rem;
   }
 
   .fa-sort-down {

@@ -2,41 +2,84 @@
 
 /* EDUCATION AREA */
 
-.education-area{
-    width: 100%;
-    height: fit-content;
-    background: v.$area-background !important;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: v.$color-white;
-    padding: 30px 50px;
+@media only screen and (min-width: 600px) {
+    .education-area{
+        width: 100%;
+        height: fit-content;
+        background: v.$area-background !important;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: v.$color-white;
+        padding: 30px 50px;
+    }
+
+    .education-area .school{
+        margin-top: 4vh;
+    }
+    .row .box{
+        border-right: 1px solid #424242;
+    }
+    .row .rectangle{
+        text-align: left;
+        margin: auto;
+    }
+
+    .rectangle small{
+        color: #bbbbbb;
+        margin-right: 20px;
+    }
+    .rectangle b{
+        font-size: 19px;
+    }
+    .rectangle i{
+        float: right;
+    }
+    .box .bubble{
+        background: #0080ffb5;
+        border-radius: 5vh;
+        width: 3vh;
+        height: 3vh;
+        margin: auto;
+    }
 }
 
-.education-area .school{
-    margin-top: 4vh;
-}
-.row .box{
-    border-right: 1px solid #424242;
-}
-.row .rectangle{
-    text-align: left;
-    margin: auto;
-}
+@media only screen and (max-width: 600px) {
+    .education-area{
+        width: 100%;
+        height: fit-content;
+        background: v.$area-background !important;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: v.$color-white;
+        padding: 3vh;
+    }
 
-.rectangle small{
-    color: #bbbbbb;
-    margin-right: 20px;
-}
-.rectangle b{
-    font-size: 19px;
-}
-.rectangle i{
-    float: right;
-}
-.box .bubble{
-    background: #0080ffb5;
-    border-radius: 5vh;
-    width: 3vh;
-    height: 3vh;
-    margin: auto;
+    .education-area .school{
+        margin-top: 4vh;
+    }
+    .row .box{
+        border-right: 1px solid #424242;
+    }
+    .row .rectangle{
+        text-align: left;
+        margin: auto;
+    }
+
+    .rectangle small{
+        color: #f1f1f1;
+        margin-right: 20px;
+    }
+    .rectangle b{
+        font-size: 19px;
+    }
+    .rectangle i{
+        float: right;
+    }
+    .box .bubble{
+        background: #0080ffb5;
+        border-radius: 5vh;
+        width: 3vh;
+        height: 3vh;
+        margin: auto;
+    }
 }

@@ -45,5 +45,11 @@ $(document).ready(function(){
         console.log(target);
         $(target).fadeToggle();
     });
+
+    $(document).delegate(".open-porfolio", "click", function() {
+        setTimeout( function() {
+            document.location.href = 'portfolio.html';
+        }, 50);
+    })
     
 });
