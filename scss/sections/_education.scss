@@ -1,25 +1,19 @@
+@use '../components/variables' as v;
+
 /* EDUCATION AREA */
 
 .education-area{
     width: 100%;
-    height: 32%;
-    background: #222222 !important;
+    height: fit-content;
+    background: v.$area-background !important;
     margin-top: 25px;
     margin-bottom: 25px;
-    color: #ffffff;
+    color: v.$color-white;
     padding: 30px 50px;
 }
 
-.education-area i{
-    font-size: 40px;
-    margin-right: 10px;
-}
-
 .education-area .school{
-    margin-top: 40px;
-    height: 20%;
-    background: #2c2c2c;
-    border-bottom: 1px solid #424242;
+    margin-top: 4vh;
 }
 .row .box{
     border-right: 1px solid #424242;
@@ -42,8 +36,7 @@
 .box .bubble{
     background: #0080ffb5;
     border-radius: 5vh;
-    width: 30%;
-    height: 30%;
+    width: 3vh;
+    height: 3vh;
     margin: auto;
-    margin-top: 2.5vh;
 }

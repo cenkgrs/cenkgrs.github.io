@@ -37,5 +37,13 @@ $(document).ready(function(){
             scrollTop: $("div.page").offset().top
         }, 1000)
     });
+
+    // Hidden areas
+    $(document).delegate(".job", "click", function()
+    {
+        target = $(this).data('target');
+        console.log(target);
+        $(target).fadeToggle();
+    });
     
 });

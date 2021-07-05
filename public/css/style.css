@@ -101,18 +101,7 @@ div .active {
   font-family: "Raleway", sans-serif !important;
 }
 
-.about-area .fa {
-  font-size: 40px;
-}
-
-.about-area h2 {
-  padding: 5px;
-  font-weight: 500;
-  margin-left: 10px;
-}
-
 .about-area p {
-  margin-top: 20px;
   color: #bbbbbb;
 }
 
@@ -173,15 +162,6 @@ div .active {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57);
-}
-
-.skills-area i {
-  font-size: 40px;
-}
-
-.skills-area h2 {
-  margin-left: 10px;
-  padding: 5px;
 }
 
 .progress-area {
@@ -250,7 +230,7 @@ div .active {
 /* EDUCATION AREA */
 .education-area {
   width: 100%;
-  height: 32%;
+  height: fit-content;
   background: #222222 !important;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -258,16 +238,8 @@ div .active {
   padding: 30px 50px;
 }
 
-.education-area i {
-  font-size: 40px;
-  margin-right: 10px;
-}
-
 .education-area .school {
-  margin-top: 40px;
-  height: 20%;
-  background: #2c2c2c;
-  border-bottom: 1px solid #424242;
+  margin-top: 4vh;
 }
 
 .row .box {
@@ -295,10 +267,9 @@ div .active {
 .box .bubble {
   background: #0080ffb5;
   border-radius: 5vh;
-  width: 30%;
-  height: 30%;
+  width: 3vh;
+  height: 3vh;
   margin: auto;
-  margin-top: 2.5vh;
 }
 
 /* EXPERIENCE AREA */
@@ -309,11 +280,6 @@ div .active {
   margin-bottom: 3vh;
   color: #ffffff;
   padding: 3vh 5vh;
-}
-
-.experience-area i {
-  font-size: 40px;
-  margin-right: 10px;
 }
 
 .experience-area .job {
@@ -347,8 +313,8 @@ div .active {
   position: fixed;
   right: 0%;
   bottom: 0%;
-  padding: 15px;
-  margin: 20px;
+  padding: 2vh;
+  margin: 2vh;
   border-radius: 35px;
   text-align: center;
 }
@@ -366,6 +332,10 @@ body {
   padding: 20px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.display-none {
+  display: none;
 }
 
 .pt15 {
@@ -396,6 +366,10 @@ body {
   margin-bottom: 0px !important;
 }
 
+.mt4 {
+  margin-top: 4vh !important;
+}
+
 .mt25 {
   margin-top: 25px !important;
 }
@@ -422,6 +396,23 @@ body {
 
 .w0 {
   width: 0% !important;
+}
+
+/* Area */
+.area-header {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  margin-left: 1vh;
+  margin-bottom: 4vh;
+}
+
+.area-logo {
+  font-size: 1.4rem !important;
+}
+
+.fa-sort-down {
+  font-size: 1.4rem !important;
 }
 
 /*# sourceMappingURL=style.css.map */

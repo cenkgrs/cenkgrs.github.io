@@ -5,14 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -46,8 +39,8 @@
 
                 <div class="about-area">
                     <div class="row">
-                        <i class="fa fa-user"></i>
-                        <h2>About Me</h2>
+                        <i class="fa fa-user area-logo"></i>
+                        <h2 class="area-header">About Me</h2>
                     </div>
                     <div class="row">
                         <p>Hello, I'm Cenk Gürses, Computer Engineering Student at Istanbul University. I am working as Full Stack Developer
@@ -94,8 +87,8 @@
 
                 <div class="skills-area">
                     <div class="row mb30">
-                        <i class="fa fa-desktop"></i>
-                        <h2>Skills</h2>
+                        <i class="fa fa-desktop area-logo"></i>
+                        <h2 class="area-header">Skills</h2>
                     </div>
                     <div class="progress-area">
                         <div class="row ml0 mr0">
@@ -157,15 +150,15 @@
 
                 <div class="education-area">
                     <div class="row">
-                        <i class="fa fa-graduation-cap"></i>
-                        <h2>Education</h2>
+                        <i class="fa fa-graduation-cap area-logo"></i>
+                        <h2 class="area-header">Education</h2>
                     </div>
                     <div class="row school">
                         <div class="col-lg-1 box">
                             <div class="bubble"></div>
                         </div>
                         <div class="col-lg-11 rectangle">
-                            <p><strong>UNIVERSITY </strong> <small>-   Istanbul University , 2016 - 2020</small> <b> GPA - 2.9</b></p>
+                            <span><strong>UNIVERSITY </strong> <small>-   Istanbul University , 2016 - 2020</small> <b> GPA - 2.9</b></span>
                         </div>
                     </div>
                     <div class="row school">
@@ -173,17 +166,17 @@
                             <div class="bubble"></div>
                         </div>
                         <div class="col-lg-11 rectangle">
-                            <p><strong>HIGH SCHOOL </strong> <small>-   Sabancı 50.Yıl Anadolu Lisesi , 2012 - 2016</small> <b> GPA - 3.25</b></p>
+                            <span><strong>HIGH SCHOOL </strong> <small>-   Sabancı 50.Yıl Anadolu Lisesi , 2012 - 2016</small> <b> GPA - 3.25</b></span>
                         </div>
                     </div>
                 </div>
 
                 <div class="experience-area">
                     <div class="row">
-                        <i class="fa fa-briefcase"></i>
-                        <h2>Experience</h2>
+                        <i class="fa fa-briefcase area-logo"></i>
+                        <h2 class="area-header">Experience</h2>
                     </div>
-                    <div class="row job" data-toggle="collapse" data-target="#job1" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="row job show-hidden" data-target="#job1">
                         <div class="col-lg-2 box">
                             <div class="date-box">
                                 <strong>2020-July - ~</strong>
@@ -201,13 +194,13 @@
                         </div>
                        
                     </div>
-                    <div class="row job-description collapse" id="job1">
+                    <div class="job-description display-none" id="job1">
                         <p> After i graduate from Istanbul University, i started working in this company as full-time Software Engineer. Up until this time 
                         i developed my skills both at languages and technologies we use and the fundamentals in our job like clean code, maintainable code etc.</p>
                     </div>
                   
 
-                    <div class="row job" data-toggle="collapse" data-target="#job2" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="row job" data-target="#job2">
                         <div class="col-lg-2 box">
                             <div class="date-box">
                                 <strong>2019-July - 2020-July</strong>
@@ -224,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row job-description collapse" id="job2">
+                    <div class="job-description display-none" id="job2">
                         <p>At this time i started working in this company as part-time Software Developer after i finished my internship here.</p> 
                     </div>
                     <div class="row job" data-toggle="collapse" data-target="#job3" aria-expanded="true" aria-controls="collapseOne">
@@ -239,7 +232,6 @@
                                     <p class="mb0"><strong> Digital Trade - Software Developer - Intern</strong></p>
                                 </div>
                                 <div class="col-lg-3">
-                                    <i class="fa fa-sort-down"></i>
                                 </div>
                             </div>
                         </div>
@@ -250,7 +242,7 @@
         </div>
 
         <div class="up-arrow">
-            <i class="fa fa-long-arrow-up"></i>
+            <i class="fa fa-sort-up"></i>
         </div>
     </div>
 </body>
